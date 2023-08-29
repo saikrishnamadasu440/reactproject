@@ -1,0 +1,215 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+padding: 15px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 1px;
+overflow: hidden;
+
+  }
+
+li {
+float: left;
+}
+
+li a {
+    
+padding: 1px;
+background-color: white;
+color: black;
+ margin-bottom: 2px;
+
+}
+
+header  li a{
+  color: black;
+  background-color: white; 
+  padding-bottom: 1px;
+}
+
+
+
+nav {
+  background-color: rgb(64, 104, 130);
+  color: white;
+  padding: 4% ;
+
+}
+
+/*  .sidebar-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sidebar {
+
+  background-color: #ddd;
+  width: 15%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+*/
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.inline {
+  display: inline;
+}
+
+li{
+float:right;
+border-right:1px solid #bbb; 
+}
+
+li a{
+display: flex-line;
+}
+
+      label {
+        display: block;
+        font: 1rem 'Fira Sans',sans-serif;
+
+          }
+  .sidebar-container{
+    display: flex;
+    flex-flow: column nowrap;
+   
+    padding: 30px;
+  }
+
+  .sidebar{
+       height: 80vh;
+    width: 30%;
+
+  }
+
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Positions the columns on the sides */
+  align-items: flex-start; /* Aligns the columns at the top */
+  padding: 30px;
+}
+
+.box1, .box2 {
+  flex: 1; /* Makes the columns grow to fill available space */
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-right: 10px; /* Adds some space between columns */
+}
+    
+
+
+
+.grid-container {
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 8px;
+background-color: #dddddb;
+padding: 30px;
+box-sizing: 20px;
+margin: 10;
+grid-template-rows: 200px 200px 200px 200px 200px; 
+}
+
+.grid-container > div {
+background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+padding: 40px 0;
+font-size: 10px;
+}
+
+.item1 {
+padding :10px;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+
+.item4{
+grid-column-start: 2;
+grid-column-end: 4;
+}
+.item5{
+grid-row-start : 3;
+grid-row-end: 5;
+}
+
+.item8{
+grid-column-start: 2;
+grid-column-end: 4;
+}
+
+.item9{
+grid-column-start: 2;
+grid-column-end: 4;
+}
+
+     input,
+      label {
+        margin: 0.4rem 0;
+      }
+
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: green;
+}
+
+.active {
+background-color: #04AA6D;
+}
+
+.sea{
+text-align: center;
+
+}
+
+#site-search{
+width: 20%;
+height: 20%;
+}
+#site{
+width: 20%;
+height: 20%;
+}
+
+nav button{
+color: white;
+background-color: orange;
+
+}
+nav input {
+width: 300px; /* Adjust the width as needed */
+height: 40px; /* Adjust the height as needed */
+padding: 10px; /* Add padding to create space inside the input */
+font-size: 16px; /* Adjust the font size as needed */
+}
+
+nav button{
+width: 120px; /* Adjust the width as needed */
+height: 40px; /* Adjust the height as needed */
+font-size: 18px; /* Adjust the font size as needed */
+}
